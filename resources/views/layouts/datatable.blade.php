@@ -19,8 +19,9 @@
 </head>
 <body class="">
     
+    @yield('content')
     <!-- jQuery -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>		
+	<script type="text/javascript" src="{{secure_asset ('build/assets/jquery-3.5.1.js')}}"></script>		
 	<!--Datatables -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" ></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js" ></script>
@@ -31,10 +32,9 @@
     <script src="{{secure_asset ('build/assets/app-abd40105.js')}}"></script>
     <script>
         // FOR DATATBLES PLUGIN
-        $(document).ready(function() {
-        $('#table').DataTable( {
-        } );
-    } );
+        document.addEventListener('DOMContentLoaded', function () {
+            let table = new DataTable('#table');
+        });
 
         // FOR ALERT
     </script>

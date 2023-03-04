@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>Payment SPP -  @yield('title')</title>
     <link rel="stylesheet" href="{{secure_asset ('css/uikit.css')}}">
     <link rel="stylesheet" href="{{secure_asset ('build/assets/app-ff486903.css')}}"> 
@@ -16,7 +15,7 @@
 
 </head>
 <body>
-
+    
     
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.24/dist/js/uikit.min.js"></script>
     <script>
