@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Payment SPP - @yield('title')</title>
-    <link rel="stylesheet" href="{{secure_asset ('build/assets/app-ff486903.css')}}">
+    <link rel="stylesheet" href="{{asset ('build/assets/app-ff486903.css')}}">
     <!-- UIkit CSS -->
     <!--Regular Datatables CSS-->
     <link href="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
     <script type="text/javascript" src="https://cdn.datatables.net/select/1.5.0/js/dataTables.select.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.4/js/dataTables.buttons.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.4/js/buttons.print.min.js"></script>
-    <script src="{{secure_asset ('build/assets/app-abd40105.js')}}"></script>
+    <script src="{{asset ('build/assets/app-abd40105.js')}}"></script>
     <script>
         // FOR DATATBLES PLUGIN
         $(document).ready(function() {

@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>Payment SPP -  @yield('title')</title>
     <link rel="stylesheet" href="{{secure_asset ('css/uikit.css')}}">
-    <link rel="stylesheet" href="{{secure_asset ('build/assets/app-ff486903.css')}}"> 
+    <link rel="stylesheet" href="{{asset ('build/assets/app-ff486903.css')}}"> 
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-    <script src="{{secure_asset ('build/assets/app-abd40105.js')}}"></script>
+    <script src="{{asset ('build/assets/app-abd40105.js')}}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
